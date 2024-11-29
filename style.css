@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{ 
+    font : 16px/20px arial, sans-serif;
+    background-color : #eaeaea;
+    color : #333;
+}
+div{
+    box-sizing: border-box;
+}
+.top-bar{
+    position : fixed;
+    height : 40px;
+    top : 0;
+    right:0;
+    left : 0;
+    background-color:lightskyblue;
+    border-bottom : 3px solid salmon;
+    z-index : 9999;
+
+}
+.kotak{
+    width : 960px;
+    margin : 80px auto;
+    background-color : #fff;
+    position : relative;
+}
+.instagram {
+    width: 100px;
+    height : 100px;
+    background-image : url(logo3.png);
+    background-repeat : no-repeat;
+    text-indent:-99999px;
+    display : inline-block;
+    position : absolute;
+    top : 0px;
+    right : 5px;
+}
+.header {
+    padding : 20px;
+}
+.header .judul{
+    font-size:40px;
+    font-weight :bold;
+    margin-bottom : 25px;
+}
+.header ul li{
+    display : inline-block;
+    margin-right : 10px;
+
+}
+.header a{
+    text-decoration: none;
+    color:salmon;
+    padding:5px;
+}
+.header a:hover{
+    background-color : lightskyblue;
+    color:white;
+}
+.anime {
+    height : 600px;
+    background-image : url(animek.png);
+    background-size : cover;
+    background-position: -50px 0px;
+    border-top : 5px solid salmon;
+    border-bottom : 5px solid lightskyblue; 
+}
+.artikel .main {
+    padding : 20px;
+    width : 600px;
+    box-sizing : border-box;
+    float : left;
+}
+.artikel .main h2 {
+    font-size : 32px;
+    font-weight : bold;
+    margin-bottom : 10px;
+}
+.artikel .main .penulis {
+    font-size:15px;
+    margin-top:-5px;
+}
+.artikel .main a{
+    color:salmon;
+}
+.artikel .main a:hover{
+    color : lightskyblue;
+}
+.artikel .main p{
+    margin-bottom:20px;
+    font-size : 14px;
+
+}
+.sidebar{
+    float : right;
+    margin-top : 20px;
+}
+.artikel .sidebar {
+    width : 300px;
+    background-color : white;
+    box-sizing: border-box;
+    padding-right : 20px; 
+}
+.sidebar .anime1 {
+    height : 80px;
+    width : 80px;
+    background-image : url(animek1.png);
+    background-size : cover;
+    margin-right : 10px;
+    margin-bottom : 0px;
+    float : left;
+}
+.artikel .sidebar .profil1{
+    font-size : 20px;
+    font-weight : bold;
+    margin-bottom : 20px;
+}
+.artikel .sidebar a{
+    font-size : 15px;
+    font-weight : bold;
+    color : salmon;
+    margin-bottom : 20px;
+}
+.artikel .sidebar .nama{
+    margin-bottom : 4px;
+}
+.artikel .sidebar .nama a:hover {
+    color:lightskyblue;
+}
+.artikel .sidebar p{
+    font-size : 12px;
+    font-weight : normal;
+    margin-bottom : 10px;
+    font-family : arial;
+}
+.clear2{
+    clear : left;
+}
+.clear1{
+    clear : both;
+}
+.footer{
+    background-color: black;
+}
+.footer .copy{
+    color : #eaeaea;
+    text-align : center;
+    padding : 10px;
+    font-size: 16px;
+
+}
+
